@@ -301,7 +301,15 @@ class ObjectSerializer
 
                 $propertyValue = $data->{$instance::attributeMap()[$property]};
                 if (isset($propertyValue)) {
-                    $instance->$propertySetter(self::deserialize($propertyValue, $type, null));
+                    if ($type === '\DateTime')
+					{
+						preg_match( "#/Date\((\d{10})\d{3}(.*?)\)/#", $propertyValue, $match ); 
+						$instance->$propertySetter(new \DateTime(date( "r", $match[1])));
+					}
+					else
+					{
+						$instance->$propertySetter(self::deserialize($propertyValue, $type, null));
+					}
                 }
             }
             return $instance;

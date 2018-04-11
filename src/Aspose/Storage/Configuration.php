@@ -97,11 +97,11 @@ class Configuration
     protected $host = 'https://api.aspose.cloud/';
 
     /*
-     * The base path, set to '/v1.0' by default
+     * The base path, set to '/v1.1' by default
      *
      * @var string
      */
-    protected $basePath = '/v1.0';
+    protected $basePath = '/v1.1';
 
     /*
      * User agent of the HTTP request, set to 'php sdk' by default
@@ -135,7 +135,7 @@ class Configuration
      * Version of Aspose.Storage Cloud API
      *
      */
-    protected $clientVersion = '2.0.0';
+    protected $clientVersion = '18.4';
 
     /*
      * Constructor
@@ -522,7 +522,7 @@ class Configuration
         $report  = 'PHP SDK (Aspose\Storage) Debug Report:' . PHP_EOL;
         $report .= '    OS: ' . php_uname() . PHP_EOL;
         $report .= '    PHP Version: ' . PHP_VERSION . PHP_EOL;
-        $report .= '    SDK Package Version: 2.0' . PHP_EOL;
+        $report .= '    SDK Package Version: 18.4' . PHP_EOL;
         $report .= '    Temp Folder Path: ' . self::getDefaultConfiguration()->getTempFolderPath() . PHP_EOL;
 
         return $report;

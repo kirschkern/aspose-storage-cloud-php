@@ -46,7 +46,7 @@ abstract class BaseTestContext extends PHPUnit_Framework_TestCase
         $contents = file_get_contents(realpath(__DIR__ . "/config.json"));
         $config = \GuzzleHttp\json_decode($contents, true);
 
-        //TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud
+        //TODO: Get your AppSID and AppKey at https://dashboard.aspose.cloud
         //      (free registration is required).
         $this->config = new Configuration();
         $this->config->setAppKey($config["AppKey"]);

@@ -2,7 +2,7 @@
 
 /*
  * --------------------------------------------------------------------------------------------------------------------
- * <copyright company="Aspose" file="PutCreateFolderRequest.php">
+ * <copyright company="Aspose Pty Ltd" file="PutCreateFolderRequest.php">
  *   Copyright (c) 2018 Aspose.Storage for Cloud
  * </copyright>
  * <summary>

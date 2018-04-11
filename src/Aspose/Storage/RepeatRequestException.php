@@ -1,7 +1,7 @@
 <?php
 /**
  * --------------------------------------------------------------------------------------------------------------------
- * <copyright company="Aspose" file="RepeatRequestException.php">
+ * <copyright company="Aspose Pty Ltd" file="RepeatRequestException.php">
  *   Copyright (c) 2018 Aspose.Storage for Cloud
  * </copyright>
  * <summary>
