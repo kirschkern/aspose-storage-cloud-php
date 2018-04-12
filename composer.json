@@ -1,8 +1,8 @@
 {
     "description": "This repository contains Aspose Storage Cloud SDK for PHP source code. Aspose Storage Cloud SDK for PHP is a true REST API that provides managers for multiple storage types.",
     "name": "aspose/storage-sdk-php",
-	 "version": "18.4",
-	 "license": "MIT",
+    "version": "18.4",
+    "license": "MIT",
     "type": "library",
     "keywords" : [
 		"aspose",
@@ -13,12 +13,12 @@
     "authors": [
         {
             "name": "Aspose",
-			 "homepage": "https://github.com/aspose-storage-cloud"
+            "homepage": "https://github.com/aspose-storage-cloud"
         }
     ],
-	"config": {
+    "config": {
         "platform": {
-            "php": "5.6.32"
+        "php": "5.6.32"
         }
     },
     "require": {
@@ -33,7 +33,7 @@
         "squizlabs/php_codesniffer": "3.*",
         "phpunit/phpunit": "^4.8"
     },
-	"autoload": {
+    "autoload": {
         "psr-0": {
             "Aspose": "src/",
             "BaseTest": "tests/"
