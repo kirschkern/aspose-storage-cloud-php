@@ -35,7 +35,7 @@ $path = "path/FileName.pdf";
 $version_id = null;
 $storage = "StorageName";
 $request = new Requests\GetDownloadRequest($path, $version_id, $storage);
-$result = $this->storageApi->getDownload($request);
+$result = $storageApi->getDownload($request);
 ```
       
 [Tests](tests/Aspose/Storage) contain various examples of using the SDK.
