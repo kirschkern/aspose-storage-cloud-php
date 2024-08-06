@@ -1,6 +1,19 @@
 This is a fork of the original Aspose repository.
 Only change is the guzzle-version in composer.json to be able to install it with guzzle ^7.2
 
+Edit your composer.json and add the following
+```
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kirschkern/aspose-storage-cloud-php"
+        }
+    ],
+    "require": {
+        "aspose/storage-sdk-php": "dev-master",
+        ...
+```
+
 # Aspose.Storage Cloud SDK for PHP
 This repository contains Aspose.Storage Cloud SDK for PHP source code. This SDK allows you to work with Aspose.Storage Cloud REST APIs in your PHP applications quickly and easily, with zero initial cost.
 See [API Reference](https://apireference.aspose.cloud/storage/) for full API specification.
