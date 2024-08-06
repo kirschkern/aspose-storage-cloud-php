@@ -35,8 +35,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Aspose\\Storage\\": "src/",
-            "BaseTest\\": "tests/"
+            "Aspose\\Storage\\": "src/Aspose/Storage/",
+            "BaseTest\\": "tests/Aspose/Storage/"
         }
     }
 }
