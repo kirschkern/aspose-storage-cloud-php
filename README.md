@@ -8,7 +8,8 @@ Only changes are
             "Aspose\\Storage\\": "src/",
             "BaseTest\\": "tests/"
         }
-```}
+}
+```
 
 Edit your composer.json and add the following
 ```
