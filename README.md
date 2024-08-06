@@ -3,7 +3,8 @@ This is a fork of the original Aspose repository.
 Only changes are 
 * guzzle-version in composer.json changed from "^6.2" to "^6.2 || ^7.0" to be able to install it with guzzle ^7.2
 * updated the autoload section to fit the newer psr-4 standard
-```"autoload": {
+```
+"autoload": {
         "psr-4": {
             "Aspose\\Storage\\": "src/",
             "BaseTest\\": "tests/"
